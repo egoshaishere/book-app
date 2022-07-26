@@ -1,7 +1,5 @@
 <template>
   <div>
-    <a href="https://metanit.com/web/vuejs/1.3.php">Ссылка на статью</a>
-
     <ul>
       <div>Виды дирректив во Vue.js</div>
       <li v-for="item in items" :key="item">
@@ -28,6 +26,21 @@ const DIRECTIVES = [
     code: "v-on",
     title: "Обработка событий",
     description: "Для обработки событий элементов html в Vue.js",
+  },
+  {
+    code: "v-model",
+    title: "Двусторонняя привязка",
+    description: "Для создания  двусторонней привязки",
+  },
+  {
+    code: "v-if",
+    title: "Условный рендеринг",
+    description: "Позволяет отобразить или скрыть элемент html по условию",
+  },
+  {
+    code: "v-model",
+    title: "Двусторонняя привязка",
+    description: "Для создания  двусторонней привязки",
   },
   {
     code: "v-model",
